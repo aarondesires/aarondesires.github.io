@@ -1,0 +1,62 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+  
+body {
+    background-color: #000000;
+    background-image: url('bottom.jpeg');
+    background-size: 2000px;
+    background-position: 50%;
+    font-size: 20px;
+    color: white;
+    font-family: "Pixelify Sans";
+    text-align: center;
+}
+  
+.mainsquare {
+    opacity: 70%;
+    background-color: black;
+    border-width: 30px;
+    border-color: white;
+    position: 0%;
+    height: 660px;
+    width: 660px;
+}
+  
+::selection {
+    background-color: rgb(116, 116, 116);
+    color: rgb(255, 255, 255);
+}
+
+#homebtn {
+    background-color: white;
+    text-align: center;
+    color:black;
+    font-family: "Pixelify Sans", sans-serif;
+    border-width: 5px;
+    font-size: 40px;
+    border-color: black;
+    height: 75px;
+    width: 400px;
+    opacity:70%;
+}
+
+#homebtn:hover {
+    background-color: rgb(255, 0, 0);
+    color:white;
+}
+#homebtn:active {
+    background-color: rgb(148, 0, 0);
+}
+
+/* .maintext{
+    opacity: 100%;
+    background-color: white;
+    color:black;
+    border-width: 30px;
+    border-color: black;
+    position: 0%;
+    height: 60%;
+    width: 90%;
+} */
