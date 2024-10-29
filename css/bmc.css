@@ -1,0 +1,21 @@
+#coffee {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #ffffff; /* Dark Cornflower Blue */
+  font-size: 1rem;
+  transition: background-color 0.2s, color 0.2s;
+  background-color: #b4b562;
+}
+
+#coffee:hover {
+  cursor: pointer;
+  background-color: #c7cc7c; /* Dark Cornflower Blue */
+}
+
+#coffee:active {
+  cursor: pointer;
+  background-color: #8e9255; /* Dark Cornflower Blue */
+}
