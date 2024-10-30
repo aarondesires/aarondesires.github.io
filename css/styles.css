@@ -13,12 +13,13 @@ body {
     align-items: center;
     height: 100%;
     padding: 20px;
-    overflow: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .container {
     overflow: hidden;
-    height: 100%;
+    height: 100vh;
     max-height:900%;
     text-align: center;
     max-width: 650px;
