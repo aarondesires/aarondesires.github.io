@@ -25,7 +25,6 @@ body {
     background-color: #e0eaff; /* Slightly darker shade for contrast */
     border-radius: 25px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    overflow: auto;
 }
 
 .header-image {
