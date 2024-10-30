@@ -8,11 +8,11 @@ document.querySelector('.toc-header').addEventListener('click', function() {
 });
 
 // Smooth scroll to section on button click
-// document.querySelectorAll('.toc-link').forEach(link => {
-//     link.addEventListener('click', function() {
-//         const targetId = this.getAttribute('data-scroll');
-//         document.querySelector(`#${targetId}`).scrollIntoView({
-//             behavior: 'smooth'
-//         });
-//     });
-// });
+document.querySelectorAll('.toc-link').forEach(link => {
+    link.addEventListener('click', function() {
+        const targetId = this.getAttribute('data-scroll');
+        document.querySelector(`#${targetId}`).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
