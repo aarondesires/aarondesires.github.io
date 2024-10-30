@@ -19,7 +19,7 @@ body {
 .container {
     overflow: hidden;
     height: 100vh;
-    max-height:900%;
+    max-height:900vh;
     text-align: center;
     max-width: 650px;
     padding: 30px;
