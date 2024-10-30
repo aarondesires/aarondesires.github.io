@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Afacad", sans-serif;
+    scrolling-behavior: smooth;
 }
 
 body {
