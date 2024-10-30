@@ -15,10 +15,12 @@ body {
     align-items: center;
     height: 100%;
     padding: 20px;
+    overflow: auto;
 }
 
 .container {
     max-height:900%;
+    overflow: hidden;
     text-align: center;
     max-width: 650px;
     padding: 30px;
