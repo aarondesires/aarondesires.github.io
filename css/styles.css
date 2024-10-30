@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-    overflow: hidden;
+    overflow: visible;
     width: 100%; /* Let the container take up full width */
     max-width: 650px;
     min-height: auto; /* Let it grow based on content */
